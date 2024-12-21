@@ -1,0 +1,81 @@
+body{
+    background-color: aqua;
+   
+
+}
+
+
+.Container {
+   
+    height: 550px;
+    width:400px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(5,40px);
+    position: relative;
+    left: 30%;
+   
+   
+}
+#Display{
+    color: white;
+    font-size: 50px;
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    border-radius: 10px 10px 0px 0px;
+   
+    text-align:right;
+ 
+}
+.buttons{
+   display: grid;
+   background-color: white;
+   grid-template-columns: repeat(4,100px);
+   grid-template-rows: repeat(5,40px);
+   position:absolute;
+   left: 50px;
+   top:230px;
+   width: 400px;
+   height:250px;
+   border-radius: 0px 0px 10px 10px;
+   z-index: 100;
+  
+   
+}
+button{
+    background-color: rgb(255, 255, 255); 
+   
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+ 
+    
+    
+}
+p{
+    color: aliceblue;
+    font-size: 40px;
+}
+#output{
+    position: absolute;
+    
+}
+button:hover{
+    background-color: rgba(128, 128, 128, 0.05);
+}
+#Input{
+    height:100px ;
+    
+}
+#Output{
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
